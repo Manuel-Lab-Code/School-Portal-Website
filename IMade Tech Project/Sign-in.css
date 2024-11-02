@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    .sign-in{
+    
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding: 25px 0px 10px 15px;
+    }
+    .welcome{
+    text-align: center;
+    margin-top: 15px;
+    }
+    .Signin-container{
+        /* border-radius: 8px;
+        box-shadow: 0px 0px 0px 3px whitesmoke; */
+        max-height: 186vh;
+          height: 100%;
+        background-color: #edf4ff;
+    
+    }
+    .Second-container{
+        font-size:25px
+     
+    }
+    h2{
+    margin-top: 5px;}
+    
+    .logo{
+    text-align:center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+    /* position:relative;
+    top:27px; */
+    }
+    
+    .form-container{
+        margin-top: 20px;
+    }
+    
+    .username-con, .password-con {
+    border: none;
+    font-size: 25px;
+    
+    }
+    .input-container, .input-passs-container {
+        height: 49px;
+        width: 30%;
+        padding: 0 10px;
+        border-radius: 5px;
+        border: 1px solid #aed9fd;
+        outline: none;
+    
+    
+    }
+    .form-container, .input-container:focus ~ username-con{
+    /* transform: translateY(-20px); */
+    }
+    .form-container, .input-container, .username-con{
+            font-size: 25px;
+    text-align:center;
+    
+    /* pointer-events:e; */
+    }
+    
+    .Remember-container{
+        position: relative;
+        top: 17px;
+        padding: 2px;
+        margin: 2px;
+    }
+    .Remember-input{
+    margin-right: 10px;
+    
+    }
+    .Submit-container{
+        text-align: -webkit-center;
+    cursor:pointer;
+        border-radius:6px;
+        padding: 9px;
+    color:#fff;}
+    
+    .Submit-container button {
+    width: 30%;
+        /* margin-top: 10px; */
+        padding: 10px;
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        border-radius: 9px;
+        background-image: linear-gradient(to right, blue, pink);
+    }
+    
+    .Submit-container button:hover{
+       background-image: linear-gradient(to right, pink, blue);}
+    .submit-btn{
+    border: none;
+    cursor:pointer;
+    background-color: cornflowerblue;
+    color:white;
+    
+    }
+    .forget-link{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .forget-link a{
+    text-decoration:none;}
+    
+    .forget-link2, .forget-link1{
+    text-decoration: none;
+    color:cornflowerblue;
+    }
+    .forget-link2{
+    
+       
+    }
+    .alert p{
+        font-style: italic;
+        color: dimgray;
+    text-align:center;
+        margin: 30px 0;
+    text-decoration:none;
+       /* padding: 10px; */
+    }
+    
+    .alert a{
+    text-decoration:none;
+    }
+    .alert a:hover{
+    text-decoration:underline;
+    }
+    .Footer{
+    /* position: relative;
+    height: 17rem;
+    top:11rem; */
+    }
+    .Footer-result, .Footer-result2{
+    text-align:center;
+    /* position: absolute; */
+    
+    }
+    .Footer-result2{
+    margin: 20px;
+    }
+    
+    body{
+    content:"";
+    background-image:url(Assets/images11.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.9;
+    }
+    .Wrapper{
+    background-color:rgb(232, 236, 236);
+    display:flex;
+    justify-content:center;
+    }
+    .Wrapper .static-txt{
+    position:relative;
+    top:26px;
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    font-weight:800;
+    }
+    .Wrapper .dynamic-txts{
+    margin-left: 15px;
+    line-height:90px;
+    height:90px;
+    /* ackground-color: tomato; */
+    overflow:hidden;
+    }
+
+     /*---------------- Animation ------------------ */
+    .dynamic-txts li{
+    list-style:none;
+    color: #ff9413;
+    font-size:30px;
+    font-weight:800;
+    position:relative;
+    top:0;
+    animation:slide 12s steps(1) infinite;
+    
+    }
+    @keyframes slide{
+    100%{
+    top:-360px;
+    }
+    }
+    .dynamic-txts li{
+    position: relative;
+    
+    }
+    
+    .dynamic-txts li::after{
+    content:"";
+    position:absolute;
+    left:0;
+    height:95.6%;
+    width:100%;
+    background-color:rgb(232, 236, 236);
+    /* border-left:2px solid white; */
+    animation: typing 3s steps(20) infinite;
+    
+    }
+    
+    @keyframes typing{
+    40%,
+    60%{
+    left:calc(100% + 30px);
+    }
+    100%{
+    left:0;
+    }
+    }
+        @media (max-width: 922px){
+    .Signin-container{
+       position:unset;
+        color:#1f0374;
+        margin-top: -7px;
+        font-size: 30px;
+        width:100%;
+        /* border-radius: 8px;
+       box-shadow: 0px 0px 0px 3px whitesmoke;
+       height: 50rem; */
+        background-color: #edf4ff;}
+    .input-container, .input-passs-container {
+        height: 50px;
+        width: 50%;}
+    .Submit-container button {
+        width: 22%;
+        /* margin-top: 10px; */
+        padding: 10px;
+        display: block;
+        font-size: 25px;}
+    .Footer-result, .Footer-result2 {
+        text-align: center;
+        /* margin-top: auto; */}
+    .Wrapper .static-txt {
+        position: relative;
+        top: 14px;
+        display: inline;
+        color: rgb(15 30 120);
+        font-size: 50px;
+        font-weight: 800;}
+    .dynamic-txts li {
+        list-style: none;
+        color: #ff9413;
+        font-size: 50px;
+        font-weight: 800;}
+    
+    .Second-container {
+        position: relative;
+        top: 2px;}
+    
+}
+    

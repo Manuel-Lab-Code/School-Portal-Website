@@ -1,0 +1,353 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+font-family: serif;
+}
+body{
+background-color:#edf4ff ;
+}
+
+.school-container{
+position: relative;
+}
+h1{
+text-align: center;
+}
+.profile-container{
+    display: flex;
+    background-color: #2f02b7;
+    opacity: 1;
+    position: relative;
+    box-shadow: 0px 1px 0px 1px;
+    text-align: center
+
+}
+.profile-img{
+    width: 120px;
+    position: relative;
+    border-radius: 50%;
+    margin:10px;
+    border: 2px solid Green;
+}
+h3{
+border: 1px solid blue;
+    display: inherit;
+    position: relative;
+
+}
+p{
+position: relative;
+    color: #edf4ff;
+}
+.profile-details{
+
+    text-align: center;
+    border: none;
+    position: relative;
+    display: inline;
+}
+.profile-details p{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 0.2rem;
+    }
+
+.trans-page{
+width:142px;
+position:fixed ;
+right: 0px;
+top:52px;
+display:flex;
+font-size: 19px;
+font-weight: bold;
+border-right: 41px solid #2f02b7;
+border-radius:8px 8px 8px 8px;
+background-color: #ffeb3b;
+transition: width 2s;
+
+}
+.trans-page:hover{
+width:400px;
+opacity:none;
+}
+.profile-Exam{
+    text-align: center;
+    position: relative;
+    font-size: large;
+    font-weight: 700;
+background-color: #ffeb3b;
+
+}
+.profile-online{
+    content: " ";
+    width: 14px;
+    display: inline;
+    border-radius: 50%;
+    position: relative;
+    top: 6rem;
+    height: 14px;
+    background-color: #8bff6e;
+    /* bottom: 37px; */
+    z-index: auto;
+    right: 1.6rem;
+}
+.profile-online2{
+    display: none;
+ 
+
+}
+.check-result-hero{
+position: relative;
+top: 9px;
+    font-size: x-large;
+/* //border:2px solid black;
+//background-color: blue; */
+}
+.check-result-hero h4{
+text-align: center;
+
+}
+.Result-Table{
+display: grid;
+grid-template-columns:auto;
+    padding: 26px;
+    background-color: #fffef5;
+    position: relative;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 1px 1px 1px 1px;
+border-radius:2px;
+
+}
+.Result-Table table{
+background-color: rgba(255, 255, 255, 0.8);
+
+
+}
+.Result-Table table tr {
+border-radius:2px;
+}
+.Result-Table table tr td{
+border-top: 1.5px solid #e7dbdb;
+text-align:center;
+padding:1px;
+}
+.Academic-logo{
+position:absolute;
+top:216px;
+right:10px;
+}
+.Academic-logo img{
+    position: relative;
+    top: -19px;
+    width: 251px;
+    height: 251px;
+mix-blend-mode: darken;
+}
+.below-table{
+top: 15px;
+position: relative;
+text-align: center;
+font-style:italy;
+}
+
+/********Footer Section*********/
+.container{
+max-width:1170px;
+/* background-color: ; */
+margin:auto;
+}
+
+.row{
+display:flex;
+flex-wrap:wrap;
+
+}
+
+ul{
+list-style:none;
+}
+
+.footer{
+position: relative;
+top:30px;
+background-color: #0c0c6c;
+padding: 20px 0px;
+
+}
+
+.footer-col{
+width:25%;
+padding: 0 15px;
+
+}
+
+.footer-col h4{
+font-size:18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom:30px;
+font-weight: 500px;
+position: relative;
+}
+.footer-col h4::before{
+content:"";
+position:absolute;
+left: 0;
+bottom:-10px;
+box-sizing:border-box;
+background-color: red;
+height:2px;
+width:50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom:10px;
+}
+.footer-col ul li a{
+font-size:16px;
+text-transform:capitalize;
+text-decoration: none;
+font-weight:300px;
+color: #bbbbbb;
+display:block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left:10px;
+}
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(225,225,225,0.2);
+margin: 0 10px 10px 0;
+text-align: center;
+line-height:40px;
+border-radius:50%;
+color: #ffffff;
+transition: all 0.5s ease;
+
+}
+.footer-col .social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+/********Select Section*********/
+
+.section-dropdown{
+/* border: 2px solid red; */
+padding-left:20px;
+}
+.section-box h5{
+padding: 10px;
+font-size: 1.5rem;
+display:block;
+color:#0c0c6c;;
+}
+input{
+margin-left:27px;
+}
+
+.section-box label{
+background-color: #fff; 
+padding: 15px;
+position:relative;
+margin:px;
+border-left: 2px solid #0c0c6c;
+color: #0c0c6c;
+border-radius:5px;
+max-width:165px;
+display:inline-block;
+box-shadow: 1px 1px 1px 0px;
+transition: all 0.2s ease;
+}
+.section-box label:hover{
+background-color: #0c0c6c;
+color:#ffffff; 
+padding-right: 5px;
+border-left: 2px solid #ffffff;
+}
+
+    /* ------------media quaries----------- */
+                  /*responsiveness*/
+@media(max-width:997px){
+    .profile-container {
+        background-color: #0c0c6c;
+        display: block;
+        position: relative;}
+
+    .profile-img{
+        width: 6rem;
+        position: relative;
+        border-radius: 50%;
+        margin: 10px;
+        border: 2px solid Green;}
+
+    .profile-details {
+        display: block;}
+
+        .profile-details p{
+            display: block;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0.2rem;}    
+    
+        .trans-page{
+            position: absolute;
+            top: 2.6rem;
+            display: inline;
+            transition: none;
+            border-right: 41px solid #0c0c6c;
+            width: fit-content;}
+
+    .profile-Exam{
+        display: inline-block;
+        position: absolute;
+        top: 2.5rem;
+        left: 0.4rem;
+        border-radius: 0px 10px 0px 7px;}
+
+.footer-col{
+width:1000%;
+margin-bottom:30px;
+padding-left: 40px;}
+}
+@media(max-width:768px){
+    .trans-page{
+        display: none;}
+    .profile-Exam{
+        display: none;}
+
+    .Academic-logo img{
+        display: none; }
+}
+@media(max-width:670px){
+    .section-dropdown{
+        display: block;}
+    
+        input{
+        display: block;
+        left: 0rem;
+        position: relative;
+        top: 2rem;}
+    
+        
+        .section-box label{
+        background-color: #fff; 
+        padding: 15px;
+        position:relative;
+        left: 3rem;
+        width: 8rem;
+        margin:px;
+        border-left: 2px solid #0c0c6c;
+        color: #0c0c6c;
+        display: block;}
+}
+@media(max-width:574px){
+.footer-col{
+width:100%;}
+}
