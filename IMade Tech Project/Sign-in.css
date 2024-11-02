@@ -248,12 +248,12 @@
         top: 14px;
         display: inline;
         color: rgb(15 30 120);
-        font-size: 50px;
+/*         font-size: 50px; */
         font-weight: 800;}
     .dynamic-txts li {
         list-style: none;
         color: #ff9413;
-        font-size: 50px;
+/*         font-size: 50px; */
         font-weight: 800;}
     
     .Second-container {
